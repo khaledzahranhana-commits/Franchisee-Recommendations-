@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franchisee Recommendation Form</title>
+
+<style>
+body{
+    margin:0;
+    background:#f3f3f3;
+    font-family:Arial,sans-serif;
+    color:#1d2740;
+}
+
+.wrapper{
+    max-width:760px;
+    margin:30px auto;
+    background:white;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 6px 24px rgba(0,0,0,0.08);
+}
+
+.hero{
+    background:#f3eee8;
+    padding:50px 45px;
+    border-bottom:1px solid #ddd;
+}
+
+.top-title{
+    color:#9a6a17;
+    letter-spacing:4px;
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+h1{
+    font-size:56px;
+    line-height:1.08;
+    margin:0 0 25px 0;
+    color:#0f172a;
+}
+
+.hero p{
+    font-size:22px;
+    line-height:1.7;
+    color:#67748e;
+    max-width:620px;
+}
+
+.form-section{
+    padding:45px;
+}
+
+label{
+    display:block;
+    margin-top:28px;
+    margin-bottom:10px;
+    font-size:18px;
+    font-weight:700;
+}
+
+input, textarea{
+    width:100%;
+    padding:20px;
+    border:2px solid #d7dce5;
+    border-radius:18px;
+    font-size:18px;
+    box-sizing:border-box;
+}
+
+textarea{
+    min-height:190px;
+    resize:vertical;
+}
+
+.submit-btn{
+    margin-top:35px;
+    width:100%;
+    background:#111827;
+    color:white;
+    border:none;
+    padding:20px;
+    border-radius:18px;
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.submit-btn:hover{
+    opacity:0.92;
+}
+
+.note{
+    margin-top:22px;
+    font-size:15px;
+    color:#6b7280;
+    line-height:1.6;
+}
+
+@media(max-width:768px){
+.hero{
+    padding:35px 28px;
+}
+
+.form-section{
+    padding:35px 28px;
+}
+
+h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+input, textarea{
+    font-size:16px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="hero">
+<div class="top-title">PROFESSIONAL FEEDBACK</div>
+
+<h1>Share Your Feedback About Working With Khaled</h1>
+
+<p>
+Your feedback is highly appreciated and may be used as part of Khaled’s professional leadership portfolio.
+</p>
+</div>
+
+<div class="form-section">
+
+<form action="https://formspree.io/f/xzdoanyv" method="POST">
+
+<label>Full Name *</label>
+<input type="text" name="Full Name" required>
+
+<label>Email Address</label>
+<input type="email" name="Email">
+
+<label>Phone Number</label>
+<input type="text" name="Phone Number">
+
+<label>Franchisee / Store Name *</label>
+<input type="text" name="Franchisee / Store Name" required>
+
+<label>
+Your message about working with Khaled during his role as Pizza Hut National Operations Specialist (05/2024 – 05/2026) *
+</label>
+
+<textarea 
+name="Recommendation"
+required
+placeholder="Please share your feedback or recommendation based on your experience working with Khaled."></textarea>
+
+<button class="submit-btn" type="submit">
+Submit Recommendation
+</button>
+
+<div class="note">
+By submitting this form, you agree that your feedback may be used professionally as a recommendation or testimonial.
+</div>
+
+</form>
+
+</div>
+</div>
+
+</body>
+</html>
